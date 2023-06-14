@@ -2,12 +2,12 @@
   "stats": {
     "suites": 5,
     "tests": 13,
-    "passes": 12,
+    "passes": 13,
     "pending": 0,
-    "failures": 1,
-    "start": "2023-06-14T11:14:10.862Z",
-    "end": "2023-06-14T11:14:11.183Z",
-    "duration": 321
+    "failures": 0,
+    "start": "2023-06-14T12:29:53.068Z",
+    "end": "2023-06-14T12:29:53.398Z",
+    "duration": 330
   },
   "tests": [
     {
@@ -34,7 +34,7 @@
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -92,13 +92,7 @@
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 428 to equal 25",
-        "showDiff": true,
-        "actual": "428",
-        "expected": "25",
-        "stack": "AssertionError: expected 428 to equal 25\n    at Context.<anonymous> (test/indexTest.js:55:46)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "does not allow rides over 2500 feet",
@@ -109,21 +103,7 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "charges 25 dollars for a distance over 2000 feet",
-      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 428 to equal 25",
-        "showDiff": true,
-        "actual": "428",
-        "expected": "25",
-        "stack": "AssertionError: expected 428 to equal 25\n    at Context.<anonymous> (test/indexTest.js:55:46)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "returns a distance in blocks",
@@ -149,7 +129,7 @@
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -198,6 +178,13 @@
     {
       "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "charges 25 dollars for a distance over 2000 feet",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
